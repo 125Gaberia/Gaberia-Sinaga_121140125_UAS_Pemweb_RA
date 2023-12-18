@@ -1,0 +1,347 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+}
+.header{
+    height: 100px;
+    display: flex;
+    flex-flow: column wrap; 
+    align-content: space-between;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    max-width: 1350px;
+}
+.logo img{
+    width: 100px;
+}
+nav{
+    margin: auto;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 20px;
+    font-size: 26px;
+    display: inline-block;
+    overflow-x: hidden;
+    font-weight: bold;
+}
+nav ul li hr{
+    margin: 0;
+    color: #000;
+    background-color: #000;
+    height: 2px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.active{
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    transition: 0.2s;
+}
+.nav{
+    width: 100%;
+    margin-left: -100%;
+    border: none;
+}
+.nav_active{
+    width: 100%;
+    margin-left: 0;
+    border: none;
+}
+.conten{
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column wrap; 
+    align-content: space-between;
+    height: 450px;
+}
+.desc h1{
+    font-size: 80px;
+    margin : 0;
+}
+.desc p{
+    font-size: 36px;
+    margin : 0;
+}
+.my_img img{
+    height: 678px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+}
+.logo_fot img{
+    width: 100px;
+}
+.copy_right p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.copy_right{
+    margin: auto;
+}
+.sub_judul{
+    margin: 50px 0px 0px 0px;
+}
+.form{
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.05);
+}
+.form h1{
+    font-size: 26px;
+}
+.pendaftaran{
+    width: 95%;
+}
+.form table tr td{
+    padding-bottom: 30px;
+}
+.label{
+    width: 20%;
+}
+.in{
+    width: 80%;
+}
+.input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: #000 1px solid;
+}
+.submit{
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.daftar_akre {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+.daftar_akre th, .daftar_akre td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.daftar_akre th {
+    background-color: #f2f2f2;
+}
+.daftar_akre tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.btn_tbh{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.btn_del{
+    display: inline-block;
+    padding: 15px 20px;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.konten2 {
+    color: rgb(145, 105, 180);
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 45px;
+}
+
+.foto-diri {
+    padding-top: 20px;
+}
+
+.profile-card {
+    width: 80%;
+    max-width: 440px;
+    padding-right: 200px;
+    color: #fff;
+    text-align: center;
+    padding: 45px 35px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card img {
+    width: 150px;
+    border-radius: 10%;
+}
+
+.profile-card h2 {
+    color: rgb(145, 105, 180);
+    margin-top: 10px;
+}
+
+p {
+    color: rgb(145, 105, 180);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 100;
+    text-align: center;
+    padding: 130px 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.1s ease-out;
+}
+
+.overlay img {
+    width: 15%;
+    margin: auto 0;
+}
+
+.overlay:target {
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 0.1s ease-in;
+}
+
+.badges img {
+    width: 40px;
+    margin: 10px 5px;
+    transition: 0.7s;
+}
+
+.badges img:hover {
+    background: #7b2ab1b1;
+}
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+    background-color: #123456;
+}
+@media screen and (max-width: 1500px) {
+    .conten{
+        display: block;
+        height: 100%;
+    }
+    .desc p{
+        font-size: 32px;
+    }
+    .my_img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .my_img img{
+        margin-top: 50px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .porto{
+        margin-top: 50px;
+    }
+    .porto img{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .akre{
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (max-width: 830px){
+    nav ul li{
+        font-size: 20px;
+    }
+    .desc h1{
+        font-size: 60px;
+    }
+    .logo_fot{
+        display: none;
+    }
+    .footer{
+        align-content: center;
+    }
+    .form h1{
+        font-size: 20px;
+    }
+    .sub_judul{
+        font-size: 20px;
+    }
+    .logo img{
+        width: 75px;
+    }
+    .logo{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 546px){
+    .desc h1{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 362px){
+    .desc h1{
+        font-size: 40px;
+    }
+    .desc p{
+        font-size: 25px;
+    }
+}
